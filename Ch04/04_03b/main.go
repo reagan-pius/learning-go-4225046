@@ -4,18 +4,21 @@ import "fmt"
 
 func main() {
 
-	// colors := []string{"Red", "Green", "Blue"}
+	colors := []string{"Red", "Green", "Blue"}
+	for i := 0 ; i < len(colors); i++ {
+		println(colors[i])
+	}
 	// for i := 0; i < len(colors); i++ {
 	// 	println(colors[i])
 	// }
 
-	// for i := range colors {
-	// 	println(colors[i])
-	// }
+	for i := range colors {
+		println(colors[i])
+	}
 
-	// for _, color := range colors {
-	// 	println(color)
-	// }
+	for _, color := range colors {
+		println(color)
+	}
 
 	// states := make(map[string]string)
 	// states["WA"] = "Washington"
